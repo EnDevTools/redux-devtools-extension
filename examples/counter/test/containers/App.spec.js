@@ -48,6 +48,7 @@ describe('containers', () => {
       const { buttons, p } = setup({ counter: 1 });
       TestUtils.Simulate.click(buttons[2]);
       expect(p.textContent).toMatch(/^Clicked: 2 times/);
+      x = 850
     });
   });
 });
